@@ -4,15 +4,15 @@ A collection of **20 frontend projects** built while mastering **HTML, CSS, and 
 
 ---
 
-## 📂 Project List
+## 🗂️ Project List
 
 | # | Project Name | Live Demo | Description |
-|---|---------------|-----------|--------------|
-| 1 | [Portfolio Website](./project-01-portfolio) | *(coming soon)* | Personal developer portfolio built with HTML, CSS, and JS |
-| 2 | [Product Landing Page](./project-02-landing-page) | *(coming soon)* | Modern landing page using Flexbox & Grid |
-| 3 | [Responsive Resume Website](./project-03-resume-website) | *(coming soon)* | Online CV layout with scroll effects |
-| 4 | Restaurant Menu Website | *(coming soon)* | Dynamic restaurant layout with hover cards |
-| ... | ... | ... | ... |
+|---|---------------|------------|-------------|
+| 1 | [Portfolio Website](project-01-portfolio/) | [View Live](https://mdnica.github.io/frontend-projects/project-01-portfolio/) | Personal developer portfolio built with HTML, CSS, and JS |
+| 2 | [Product Landing Page](project-02-landing-page/) | [View Live](https://mdnica.github.io/frontend-projects/project-02-landing-page/) | Modern landing page using Flexbox & Grid |
+| 3 | [Responsive Resume Website](project-03-responsive-resume-webpage/) | [View Live](https://mdnica.github.io/frontend-projects/project-03-responsive-resume-webpage/) | Online CV layout with scroll effects |
+| 4 | [Restaurant Menu Website](project-04-restaurant-menu/) | (coming soon) | Dynamic restaurant layout with hover cards |
+
 
 ---
 
