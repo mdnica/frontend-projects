@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moon Orbit</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at top, #0b1220, #02040f);
+        overflow: hidden;
+      }
+
+      /* Orbit container */
+      .orbit {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        position: relative;
+
+        animation: orbit 8s linear infinite;
+      }
+
+      /* Earth */
+      .earth {
+        width: 120px;
+        height: 120px;
+        background: radial-gradient(circle at 30% 30%, #3fa9f5, #0b3c5d);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      /* Moon */
+      .moon {
+        width: 30px;
+        height: 30px;
+        background: radial-gradient(circle at 30% 30%, #ddd, #888);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+      }
+
+      /* Optional orbit path (visual guide) */
+      .orbit-path {
+        position: absolute;
+        inset: 0;
+        border: 1px dashed rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+      }
+
+      @keyframes orbit {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="orbit">
+      <div class="orbit-path"></div>
+      <div class="earth"></div>
+      <div class="moon"></div>
+    </div>
+  </body>
+</html>
